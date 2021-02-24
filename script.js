@@ -15,7 +15,7 @@ async function genrateQuote() {
 		},
 	};
 	const res = await fetch(
-		"http://api.quotable.io/random?tags=inspirational",
+		"https://api.quotable.io/random?tags=inspirational",
 		config
 	);
 
